@@ -1,0 +1,6 @@
+CPU_THRESHOLD = 80
+MEM_THRESHOLD = 80
+DISK_THRESHOLD = 80
+
+CHECK_INTERVAL = 5  # seconds
+LOG_FILE = "logs/system_health.log"

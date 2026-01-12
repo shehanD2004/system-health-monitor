@@ -18,12 +18,14 @@ with timestamped alerts when thresholds are exceeded.
 - **python-dotenv** (for loading email credentials)  <!-- New dependency -->
 
 ## Configuration for Email Alerts
-1. Create a `.env` file in the project root:
 
-    Add these credentials:
-        - EMAIL_SENDER="yourGmail"
-        - EMAIL_PASSWORD="yourGmailAppPassword"
-        - EMAIL_RECEIVER="recieverGmail"
+1. Create a `.env` file in the project root and add your email credentials:
+
+```env
+EMAIL_SENDER="yourGmail"
+EMAIL_PASSWORD="yourGmailAppPassword"
+EMAIL_RECEIVER="receiverGmail"
+
 
 2. Make sure Gmail **2-Step Verification is enabled** and an **App Password** is generated.
 3. Adjust thresholds in `src/config.py` if needed.

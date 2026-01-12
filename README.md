@@ -9,7 +9,7 @@ with timestamped alerts when thresholds are exceeded.
 - Timestamped logging
 - Console alerts
 - Modular, testable design
--**Email alerts when thresholds are exceeded**  <!-- New feature -->
+- **Email alerts when thresholds are exceeded**  <!-- New feature -->
 
 ## Tech Stack
 - Python 3
@@ -21,9 +21,9 @@ with timestamped alerts when thresholds are exceeded.
 1. Create a `.env` file in the project root:
 
 Add these credentials:
-    EMAIL_SENDER=your_email@gmail.com
-    EMAIL_PASSWORD=your_gmail_app_password
-    EMAIL_RECEIVER=receiver_email@gmail.com
+    EMAIL_SENDER="yourGmail"
+    EMAIL_PASSWORD="yourGmailAppPassword"
+    EMAIL_RECEIVER="recieverGmail"
 
 2. Make sure Gmail **2-Step Verification is enabled** and an **App Password** is generated.
 3. Adjust thresholds in `src/config.py` if needed.
